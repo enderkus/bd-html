@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@100..900&display=swap');
+
+:root {
+--primary-dark-color : #2E584E;
+--primary-opaque-color : #3A685D;
+--action-button-color:#B8E897;
+}
+
+* {
+font-family: "Inter", sans-serif;
+}
+
+.site-navbar-and-hero {
+    background-color: var(--primary-dark-color);
+    background-image: url("/images/hero-pattern-5.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.logo-container a{
+    text-decoration: none;
+}
+
+.logo-container a:first-child {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--bs-white);
+    font-size: 3.4em;
+    margin-bottom: -20px;
+}
+
+.logo-container a:last-child {
+    font-family: "Inter", sans-serif;
+    color: var(--bs-white)
+}
+
+
+.nav-wrapper {
+background-color: var(--primary-opaque-color);
+font-family: "Inter", sans-serif;
+font-weight: 300;
+}
+
+
+.nav-wrapper li a {
+    color: var(--bs-white);
+}
+
+.nav-wrapper li a:hover {
+    color: var(--bs-gray-300);
+}
+
+.nav-wrapper li a.active {
+background-color: var(--bs-white);
+border-radius: var(--bs-border-radius-pill) !important;
+color: var(--primary-opaque-color);
+}
+
+
+.action-button {
+    border-color: var(--action-button-color);
+    color: var(--action-button-color);
+}
+
+.action-button:hover {
+    background-color: var(--action-button-color);
+    border-color: var(--primary-opaque-color);
+    color: var(--primary-dark-color);
+}
+
+.avatar-stack .avatar {
+    width: 150px;
+    height: 150px;
+    margin-right: -40px;
+}
+
+
+.welcome-text {}
+
+.welcome-text-logo {
+    font-family: "Allura", cursive;
+    font-size: 4.2em;
+    margin-bottom: -5px;
+}
+
+.welcome-text-sub {
+}
+
+.main-services {
+    display: flex;
+}
+
+.border-action {
+    border-color: var(--action-button-color) !important;
+}
+
+.text-action {
+    color: var(--action-button-color) !important;
+}
+
+.fs-1dot2rem {
+    font-size: 1.2rem;
+}
+
+
+.hero-img {
+ border-radius: 2em;
+}
