@@ -163,3 +163,8 @@
     text-decoration: underline !important;
 }
 
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--action-button-color);
+    color: var(--bs-black);
+}
