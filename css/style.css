@@ -129,4 +129,14 @@
     background-position: 0 0, 10px 10px;
 }
 
+.footer {
+    background-color: var(--primary-opaque-color);
+}
+
+.footer-hover-color {
+}
+
+.footer-hover-color:hover {
+    color: var(--bs-gray-300) !important;
+}
 
