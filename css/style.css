@@ -20,6 +20,17 @@ background-color: var(--primary-opaque-color);
 color: var(--bs-white);
 }
 
+
+.btn-site-style-dark {
+    background-color: var(--primary-dark-color);
+    color: var(--bs-white);
+}
+
+.btn-site-style-dark:hover {
+    background-color: var(--bs-black);
+    color: var(--bs-white);
+}
+
 .site-navbar-and-hero {
     background-color: var(--primary-dark-color);
     background-image: url("../images/hero-pattern-5.png");
@@ -113,7 +124,10 @@ color: var(--primary-opaque-color);
     font-size: 1.2rem;
 }
 
-
 .hero-img {
  border-radius: 2em;
+}
+
+.our-experts {
+background-color: var(--primary-opaque-color);
 }
