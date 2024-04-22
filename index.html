@@ -253,7 +253,8 @@
         <div class="row py-5">
             <div class="col-xl-5 d-flex flex-column gap-3 justify-content-center">
                 <h4 class="fs-1 fw-bold">Danışan Yorumları</h4>
-                <p class="pe-5 fs-4 fw-lighter">Memnuniyetlerini ve deneyimlerini bizimle paylaşan danışanlarımızın değerli geri bildirimleri burada bulunmaktadır.</p>
+                <p class="pe-5 fs-4 fw-lighter">Memnuniyetlerini ve deneyimlerini bizimle paylaşan danışanlarımızın
+                    değerli geri bildirimleri burada bulunmaktadır.</p>
                 <a href="" class="btn btn-site-style rounded-pill px-4 fs-5 align-self-start">Tüm Yorumlar <i
                         class="bi bi-arrow-right"></i></a>
             </div>
@@ -318,11 +319,49 @@
     </div>
 </div>
 
+<div class="gallery site-bg-overlay-white py-5">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-xl-12 text-center pb-3">
+                <h4 class="fs-1 fw-bold text-black pb-3">Fotoğraf Galerisi</h4>
+                <p class="fs-4 fw-lighter text-black px-lg-5">Klinik ortamımızı ve sunulan hizmetleri daha yakından
+                    keşfedin. Sıcak ve samimi atmosferimizi, modern tesislerimizi ve uzman ekibimizin çalışma ortamını
+                    görsel olarak keşfedin. Bizimle birlikte sağlıklı bir zihinsel ve duygusal yaşamı keşfedin.</p>
+            </div>
+            <div class="gallery-images row g-3">
+                <div class="col-xl-3">
+                    <img class="w-100 rounded shadow" src="https://picsum.photos/id/237/500/350" alt="">
+                </div>
+                <div class="col-xl-3">
+                    <img class="w-100 rounded shadow" src="https://picsum.photos/id/236/500/350" alt="">
+                </div>
+                <div class="col-xl-3">
+                    <img class="w-100 rounded shadow" src="https://picsum.photos/id/235/500/350" alt="">
+                </div>
+                <div class="col-xl-3">
+                    <img class="w-100 rounded shadow" src="https://picsum.photos/id/234/500/350" alt="">
+                </div>
+                <div class="col-xl-3">
+                    <img class="w-100 rounded shadow" src="https://picsum.photos/id/233/500/350" alt="">
+                </div>
+                <div class="col-xl-3">
+                    <img class="w-100 rounded shadow" src="https://picsum.photos/id/232/500/350" alt="">
+                </div>
+                <div class="col-xl-3">
+                    <img class="w-100 rounded shadow" src="https://picsum.photos/id/231/500/350" alt="">
+                </div>
+                <div class="col-xl-3">
+                    <img class="w-100 rounded shadow" src="https://picsum.photos/id/230/500/350" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
-        // Her bir kolonun en büyük yüksekliğini al
         var max_height = 0;
         $('.our-experts .col-xl-4').each(function () {
             var height = $(this).height();
@@ -330,7 +369,6 @@
                 max_height = height;
             }
         });
-        // Tüm kolonlara en büyük yüksekliği atayın
         $('.our-experts .col-xl-4 > div').height(max_height);
     });
 </script>
