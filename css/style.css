@@ -10,6 +10,16 @@
 font-family: "Inter", sans-serif;
 }
 
+
+.btn-site-style {
+    background-color: var(--action-button-color);
+}
+
+.btn-site-style:hover {
+background-color: var(--primary-opaque-color);
+color: var(--bs-white);
+}
+
 .site-navbar-and-hero {
     background-color: var(--primary-dark-color);
     background-image: url("/images/hero-pattern-5.png");
