@@ -10,6 +10,11 @@
     font-family: "Inter", sans-serif;
 }
 
+
+.text-dark-site-style {
+    color: var(--primary-dark-color) !important;
+}
+
 .btn-site-style-hover-white {
     background-color: var(--action-button-color);
 }
@@ -148,5 +153,13 @@
 
 .footer-hover-color:hover {
     color: var(--bs-gray-300) !important;
+}
+
+.page-cover {
+    background-color: var(--primary-opaque-color);
+}
+
+.breadcrumb-hover-style:hover {
+    text-decoration: underline !important;
 }
 
